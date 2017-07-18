@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name=".MainActivity"
+    android:label="@string/app_name"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greatbackground"
+    tools:context="com.example.myfirstapp.MainActivity">
+
+
+    <LinearLayout
+
+        android:id="@+id/STATUSBAR"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/leeds"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="#2A2D32"
+            android:text="CLUB NAME"
+            android:textAlignment="center"
+            android:textColor="#C0921A"
+            android:textSize="20sp"
+            android:tag="fonts/EASPORTS15.otf"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#2A2D32"
+            android:text="XP"
+            android:textAlignment="center"
+            android:textColor="#C0921A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#2A2D32"
+            android:text="DIV"
+            android:textAlignment="center"
+            android:textColor="#C0921A"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/STATUSBAR">
+
+        <Button
+            android:id="@+id/PLAY"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="110dp"
+            android:layout_weight="2"
+            android:backgroundTint="#B32A2D32"
+            android:text="PLAY"
+            android:textColor="#C0921A"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/BUYPACKS"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="36dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B3C0921A"
+            android:text="BUY PACKS"
+            android:textColor="#2A2D32"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/MYCLUB"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="36dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B32A2D32"
+            android:text="MY CLUB"
+            android:textColor="#C0921A"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/TROPHIES"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B3C0921A"
+            android:text="TROPHIES"
+            android:textColor="#2A2D32"
+            android:textSize="25sp" />
+
+        <Button
+
+            android:id="@+id/SETTINGS"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="36dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B32A2D32"
+            android:text="SETTINGS"
+            android:textColor="#C0921A"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
