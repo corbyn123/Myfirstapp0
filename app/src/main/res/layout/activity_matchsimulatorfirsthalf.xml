@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamestadium"
+    tools:context="com.example.myfirstapp.Matchsimulatorfirsthalf">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/relativeLayout2">
+
+
+        <LinearLayout
+
+            android:id="@+id/STATUSBAR"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/leeds"
+                android:background="#2A2D32"
+
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:background="#2A2D32"
+                android:text="CLUB NAME"
+                android:textAlignment="center"
+                android:textColor="#C0921A"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#2A2D32"
+                android:text="XP"
+                android:textAlignment="center"
+                android:textColor="#C0921A"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#2A2D32"
+                android:text="COINS"
+                android:textAlignment="center"
+                android:textColor="#C0921A"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout2">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/playerteam"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="55dp"
+                android:layout_weight="1"
+                android:src="@drawable/leeds" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0  "
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="-"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  0"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/manutd" />
+        </LinearLayout>
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" 0'"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:layout_marginTop="120dp"/>
+
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/makesubfromfirsthalf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MAKE SUB"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="180dp"
+        android:textColor="#2A2D32"
+        android:background="#B3C0921A"/>
+
+    <Button
+        android:id="@+id/endmatchfromfirsthalf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="END MATCH"
+
+        android:textColor="#2A2D32"
+        android:background="#B3C0921A"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        />
+
+
+</LinearLayout>
+
+
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/playerone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="180dp"
+            android:background="#B32A2D32"
+            android:text="1 GREEN\n2 AYLING\n18 JANSSON\n6 COOPER\n28 BERARDI\n24 SACKO\n25 VIERA\n19 HERNANDEZ\n26 BRIDCUTT\n9 WOOD\n7 ROOFE"
+            android:textColor="#C0921A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="300dp"
+            android:layout_alignParentBottom="true"
+            android:background="#B32A2D32"
+            android:gravity="right"
+            android:text="DE GEA 1\nJONES 4\nSMALLING 12\nCARRICK 16\nSHAW 28\nPOGBA 6\nLINGARD 14\nVALENCIA 25\nYOUNG 18\nMARTIAL 9\nLUKAKU 10"
+            android:textColor="#C0921A"
+            android:textSize="20sp"
+            android:layout_marginRight="12dp" />
+
+   </RelativeLayout>
+
+    <Button
+        android:id="@+id/halftimefromfirsthalf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="halftime"
+        android:layout_marginTop="30dp"/>
+</android.support.constraint.ConstraintLayout>

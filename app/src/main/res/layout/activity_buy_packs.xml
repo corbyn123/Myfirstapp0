@@ -10,29 +10,27 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+
     <LinearLayout
+
         android:id="@+id/STATUSBAR"
-        android:layout_alignParentTop="true"
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1">
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true">
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_weight="1"
             android:src="@drawable/leeds"
+            android:background="#2A2D32"
+
 
             />
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_weight="2"
             android:background="#2A2D32"
             android:text="CLUB NAME"
@@ -42,7 +40,7 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_weight="1"
             android:background="#2A2D32"
             android:text="XP"
@@ -53,15 +51,16 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_weight="1"
             android:background="#2A2D32"
-            android:text="DIV"
+            android:text="COINS"
             android:textAlignment="center"
             android:textColor="#C0921A"
             android:textSize="20sp" />
 
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="fill_parent"

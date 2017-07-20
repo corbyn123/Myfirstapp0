@@ -7,44 +7,36 @@
     android:background="#3A3A3C"
     tools:context="com.example.myfirstapp.Trophies">
 
-<RelativeLayout
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-
-
     <LinearLayout
 
         android:id="@+id/STATUSBAR"
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true">
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_weight="1"
             android:src="@drawable/leeds"
+            android:background="#2A2D32"
+
+
             />
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_weight="2"
             android:background="#2A2D32"
             android:text="CLUB NAME"
             android:textAlignment="center"
             android:textColor="#C0921A"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_weight="1"
             android:background="#2A2D32"
             android:text="XP"
@@ -55,17 +47,18 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_weight="1"
             android:background="#2A2D32"
-            android:text="DIV"
+            android:text="COINS"
             android:textAlignment="center"
             android:textColor="#C0921A"
             android:textSize="20sp" />
 
     </LinearLayout>
 
-    <LinearLayout
+
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -73,10 +66,9 @@
 
         <Button
             android:id="@+id/trophiestoseasons"
-            android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="50dp"
             android:text="play"
             android:layout_marginRight="24dp"
             android:textColor="#C0921A"
@@ -86,20 +78,18 @@
 
         <Button
             android:id="@+id/trophiestohome"
-            android:layout_width="0dp"
+            android:layout_width="150dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="50dp"
             android:text="back"
             android:textSize="24sp"
+            android:layout_alignParentRight="true"
             android:layout_marginRight="24dp"
             android:textColor="#C0921A"
             android:background="#2A2D32"
             android:layout_marginLeft="24dp" />
 
-
-    </LinearLayout>
-
-
 </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>

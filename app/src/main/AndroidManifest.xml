@@ -20,7 +20,15 @@
         <activity android:name=".BuyPacks" />
         <activity android:name=".MyClubHomepage" />
         <activity android:name=".Trophies" />
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".Settings" />
+        <activity android:name=".Matchsimulatorfirsthalf" />
+        <activity android:name=".Pregame" />
+        <activity android:name=".Halftime" />
+        <activity android:name=".Makesubstitution" />
+        <activity android:name=".gamesimulatorsecondhalf" />
+        <activity android:name=".Rewards" />
+        <activity android:name=".Endgame" />
+        <activity android:name=".Substitutionsecondhalf"></activity>
     </application>
 
 </manifest>

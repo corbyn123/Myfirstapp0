@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greatbackground"
+    tools:context="com.example.myfirstapp.Makesubstitution">
+
+
+    <LinearLayout
+
+        android:id="@+id/STATUSBAR"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/leeds"
+            android:background="#2A2D32"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            android:background="#2A2D32"
+            android:text="CLUB NAME"
+            android:textAlignment="center"
+            android:textColor="#C0921A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#2A2D32"
+            android:text="XP"
+            android:textAlignment="center"
+            android:textColor="#C0921A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#2A2D32"
+            android:text="COINS"
+            android:textAlignment="center"
+            android:textColor="#C0921A"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"></RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/gotmatchsimulatorfirsthalf"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="BACK to game"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:textColor="#C0921A"
+            android:background="#E62A2D32"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="35:00"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:textColor="#C0921A"
+            android:background="#E62A2D32"></TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ratingandchem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Rating: 73                             Chemistry:86"
+            android:textColor="#C0921A"
+            android:background="#E62A2D32"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="120dp"/>
+
+
+        <TextView
+            android:layout_below="@id/ratingandchem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/substitutes"
+            android:textColor="#C0921A"
+            android:background="#E62A2D32"
+            android:text="STARTING XI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <TextView
+            android:id="@+id/substitutes"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:text="SUBSTITUTES"
+            android:gravity="center|top"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="#C0921A"
+            android:background="#E62A2D32">
+        </TextView>
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

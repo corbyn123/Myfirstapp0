@@ -16,6 +16,7 @@ public class Season extends AppCompatActivity {
 
     Button backtohome;
     Button buypacksseasons;
+    Button PLAYMATCHSEASONS;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,15 @@ public class Season extends AppCompatActivity {
 
         });
 
+        PLAYMATCHSEASONS = (Button) findViewById(R.id.PLAYMATCHSEASONS);
+        PLAYMATCHSEASONS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Pregame = new Intent(Season.this, Pregame.class);
+                startActivity(Pregame);
+            }
+
+        });
     }
 
 }
