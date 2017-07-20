@@ -21,7 +21,6 @@
             android:src="@drawable/leeds"
             android:background="#2A2D32"
 
-
             />
 
         <TextView
