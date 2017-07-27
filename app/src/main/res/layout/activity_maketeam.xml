@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.Maketeam">
+
+
+    <LinearLayout
+        android:id="@+id/draftoptionslayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#E6060B10"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/draftcard1"
+            android:src="@drawable/rarebronze"
+            android:layout_marginRight="2dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:id="@+id/draftcard2"
+            android:layout_marginRight="2dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:id="@+id/draftcard3"
+            android:layout_marginRight="2dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:id="@+id/draftcard4"
+            android:layout_marginRight="2dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:id="@+id/draftcard5"
+            android:layout_marginRight="2dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/futlogobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/futseasonslogo"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

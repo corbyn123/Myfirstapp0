@@ -19,7 +19,7 @@
             android:layout_height="30dp"
             android:layout_weight="1"
             android:src="@drawable/leeds"
-            android:background="#2A2D32"
+            android:background="#060B10"
 
 
             />
@@ -28,20 +28,20 @@
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="2"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="CLUB NAME"
             android:textAlignment="center"
-            android:textColor="#C0921A"
+            android:textColor="#FED837"
             android:textSize="20sp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="XP"
             android:textAlignment="center"
-            android:textColor="#C0921A"
+            android:textColor="#FED837"
             android:textSize="20sp" />
 
         <TextView
@@ -49,10 +49,10 @@
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="COINS"
             android:textAlignment="center"
-            android:textColor="#C0921A"
+            android:textColor="#FED837"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -88,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="0  "
-                android:textColor="#C0921A"
+                android:textColor="#A9C9E4"
                 android:textSize="45sp" />
 
             <TextView
@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="-"
-                android:textColor="#C0921A"
+                android:textColor="#A9C9E4"
                 android:textSize="40sp" />
 
             <TextView
@@ -104,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="  3"
-                android:textColor="#C0921A"
+                android:textColor="#A9C9E4"
                 android:textSize="45sp" />
 
             <ImageView
@@ -131,8 +131,9 @@
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"
-            android:textColor="#C0921A"
-            android:background="#2A2D32"
+            android:textColor="#A9C9E4"
+            android:background="@drawable/blackbutton_background"
+            android:textStyle="bold"
 
             />
         <Button
@@ -145,9 +146,9 @@
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"
             android:layout_marginBottom="12dp"
-            android:textColor="#C0921A"
-            android:background="#2A2D32"
-            />
+            android:textColor="#A9C9E4"
+            android:textStyle="bold"
+            android:background="@drawable/blackbutton_background"/>
 
         <Button
             android:id="@+id/seasonsfromendgame"
@@ -155,12 +156,13 @@
             android:layout_height="wrap_content"
             android:text="PLAY NEXT MATCH"
             android:textSize="25dp"
+            android:textStyle="bold"
             android:layout_above="@id/homefromendgame"
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"
             android:layout_marginBottom="12dp"
-            android:textColor="#C0921A"
-            android:background="#2A2D32"></Button>
+            android:textColor="#A9C9E4"
+            android:background="@drawable/blackbutton_background"></Button>
 
 
 

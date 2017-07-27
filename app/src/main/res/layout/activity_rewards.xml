@@ -103,19 +103,21 @@
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:layout_marginBottom="12dp"
-            android:background="#2A2D32"
-            android:textColor="#C0921A"/>
+            android:background="@drawable/blackbutton_background"
+            android:textStyle="bold"
+            android:textColor="#A9C9E4"/>
         <Button
             android:id="@+id/homefromrewards"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="HOME"
+            android:textStyle="bold"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="24dp"
             android:layout_marginBottom="12dp"
-            android:background="#2A2D32"
-            android:textColor="#C0921A"/>
+            android:background="@drawable/blackbutton_background"
+            android:textColor="#A9C9E4"/>
 
     </RelativeLayout>
 

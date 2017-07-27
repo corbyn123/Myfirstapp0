@@ -3,4 +3,19 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="fifablack">#060B10</color>
+    <color name="fifayellow">#FED837</color>
+
+
+
+<color name="button_pressedblack">#2D355A</color>
+<color name="button_focused">#FED837</color>
+<color name="button_defaultblack">#060B10</color>
+
+
+    <color name="button_pressedyellow">#C0921A</color>
+    <color name="button_focusedyellow">#FED837</color>
+    <color name="button_defaultyellow">#FED837</color>
+
+
 </resources>

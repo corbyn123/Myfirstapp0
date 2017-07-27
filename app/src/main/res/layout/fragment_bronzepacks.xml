@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="65dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/greatbackground"
+    tools:context="com.example.myfirstapp.buyPacks$PlaceholderFragment">
+
+
+
+
+        <TextView
+        android:id="@+id/bronzetitle"
+        android:layout_marginTop="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BRONZE PACKS"
+        android:gravity="center_horizontal"
+        android:textColor="#A9C9E4"
+        android:textSize="20sp"
+        android:background="@drawable/roundedbuttonblack"
+        android:layout_marginBottom="24dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/bronzepacknormal"
+                android:layout_width="150dp"
+                android:layout_height="400dp"
+                android:src="@drawable/nonrarebronze"
+                android:background="#B3ADA87F"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="80dp"
+                android:paddingBottom="100dp"
+                android:layout_marginLeft="12dp"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:background="#B3ADA87F"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="12dp"
+                android:text="BRONZE PACK\n\nPRICE: 300"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#555756"
+                android:textSize="18dp"></TextView>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageButton
+                android:id="@+id/bronzepackrare"
+                android:layout_width="150dp"
+                android:layout_height="400dp"
+                android:src="@drawable/rarebronze"
+                android:background="#B3555756"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="80dp"
+                android:paddingBottom="100dp"
+                android:layout_marginRight="12dp"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:background="#B3555756"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="12dp"
+                android:text="RARE BRONZE PACK\nPRICE: 550"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#A9C9E4"
+                android:textSize="18sp"
+
+                />
+        </FrameLayout>
+</RelativeLayout>

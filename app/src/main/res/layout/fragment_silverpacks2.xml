@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buyPacks$SilverpacksFragment"
+    android:paddingBottom="65dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/greatbackground">
+
+
+    <TextView
+        android:id="@+id/bronzetitle"
+        android:layout_marginTop="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SILVER PACKS"
+        android:gravity="center_horizontal"
+        android:textColor="#A9C9E4"
+        android:textSize="20sp"
+        android:background="@drawable/roundedbuttonblack"
+        android:layout_marginBottom="24dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+        <ImageButton
+            android:id="@+id/bronzepacknormal"
+            android:layout_width="150dp"
+            android:layout_height="400dp"
+            android:src="@drawable/nonraresilver"
+            android:background="#B3294128"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="80dp"
+            android:paddingBottom="100dp"
+            android:layout_marginLeft="12dp"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:background="#B3294128"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="12dp"
+            android:text="SILVER PACK\n\nPRICE: 700"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#ADA87F"
+            android:textSize="18dp"></TextView>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true">
+
+        <ImageButton
+            android:id="@+id/bronzepackrare"
+            android:layout_width="150dp"
+            android:layout_height="400dp"
+            android:src="@drawable/raresilver"
+            android:background="#B33C4041"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="80dp"
+            android:paddingBottom="100dp"
+            android:layout_marginRight="12dp"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:background="#B33C4041"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="12dp"
+            android:text="RARE SILVER PACK\nPRICE: 850"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#ADA87F"
+            android:textSize="18sp"
+
+            />
+    </FrameLayout>
+</RelativeLayout>
+

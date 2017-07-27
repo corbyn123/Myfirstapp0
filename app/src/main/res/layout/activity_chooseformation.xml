@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlice"
+    tools:context="com.example.myfirstapp.Chooseformation">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+
+        <Spinner
+
+            android:id="@+id/chooseformation_spinner"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:background="#A9C9E4"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="20dp"
+            android:dropDownSelector="@android:color/holo_blue_light"
+            android:dropDownHeight="100dp"
+            android:popupBackground="#A9C9E4"
+            >
+        </Spinner>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE FORMATION"
+            android:layout_marginTop="20dp"
+            android:textColor="#A9C9E4"
+            android:background="@drawable/roundedbuttonblack"
+            android:gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="24dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="65dp">
+
+        <ImageView
+            android:contentDescription="null"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="36dp"
+            android:layout_width="170dp"
+            android:layout_height="380dp"
+            android:src="@drawable/pitch"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="24dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="18dp"
+            android:textSize="25sp"
+            android:textColor="#FED837"
+            android:background="@drawable/roundedbuttonblack"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/futseasonslogo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"/>
+        <Button
+            android:id="@+id/mainactivityfromchooseformation"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:background="@drawable/yellowbutton_background"
+            android:textColor="@color/fifablack"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="48dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="36dp"
+            />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -20,7 +20,7 @@
             android:layout_height="30dp"
             android:layout_weight="1"
             android:src="@drawable/leeds"
-            android:background="#2A2D32"
+            android:background="#060B10"
 
             />
 
@@ -28,7 +28,7 @@
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="2"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="CLUB NAME"
             android:textAlignment="center"
             android:textColor="#C0921A"
@@ -38,7 +38,7 @@
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="XP"
             android:textAlignment="center"
             android:textColor="#C0921A"
@@ -49,7 +49,7 @@
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="COINS"
             android:textAlignment="center"
             android:textColor="#C0921A"
@@ -80,8 +80,10 @@
             android:layout_marginTop="60dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:textColor="#C0921A"
-            android:background="#E62A2D32"/>
+            android:textColor="#060B10"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:background="@drawable/yellowbutton_background"/>
         <TextView
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -92,8 +94,9 @@
             android:layout_marginTop="60dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:textColor="#C0921A"
-            android:background="#E62A2D32"></TextView>
+            android:textColor="#060B10"
+            android:textStyle="bold"
+            android:background="#A9C9E4"></TextView>
     </LinearLayout>
 
     <RelativeLayout
@@ -105,9 +108,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Rating: 73                             Chemistry:86"
-            android:textColor="#C0921A"
-            android:background="#E62A2D32"
+            android:text="Rating: 73                             Chemistry: 86"
+            android:textColor="#A9C9E4"
+            android:background="#B3060B10"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:layout_marginTop="120dp"/>
@@ -118,8 +121,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_above="@id/substitutes"
-            android:textColor="#C0921A"
-            android:background="#E62A2D32"
+            android:textColor="#A9C9E4"
+            android:background="#B3060B10"
             android:text="STARTING XI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"
             android:gravity="center_horizontal"
             android:layout_marginLeft="24dp"
@@ -132,13 +135,13 @@
             android:id="@+id/substitutes"
             android:layout_width="fill_parent"
             android:layout_height="120dp"
-            android:text="SUBSTITUTES"
+            android:text="SUBS"
             android:gravity="center|top"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:layout_alignParentBottom="true"
-            android:textColor="#C0921A"
-            android:background="#E62A2D32">
+            android:textColor="#A9C9E4"
+            android:background="#B3060B10">
         </TextView>
     </RelativeLayout>
 

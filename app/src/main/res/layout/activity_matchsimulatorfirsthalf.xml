@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gamestadium"
+    android:paddingBottom="12dp"
     tools:context="com.example.myfirstapp.Matchsimulatorfirsthalf">
 
     <RelativeLayout
@@ -33,7 +34,7 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:src="@drawable/leeds"
-                android:background="#2A2D32"
+                android:background="#060B10"
 
 
                 />
@@ -42,20 +43,20 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="2"
-                android:background="#2A2D32"
+                android:background="#060B10"
                 android:text="CLUB NAME"
                 android:textAlignment="center"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
-                android:background="#2A2D32"
+                android:background="#060B10"
                 android:text="XP"
                 android:textAlignment="center"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp" />
 
             <TextView
@@ -63,10 +64,10 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
-                android:background="#2A2D32"
+                android:background="#060B10"
                 android:text="COINS"
                 android:textAlignment="center"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -95,7 +96,7 @@
             <ImageView
                 android:id="@+id/playerteam"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="90dp"
                 android:layout_marginLeft="55dp"
                 android:layout_weight="1"
                 android:src="@drawable/leeds" />
@@ -104,7 +105,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="0  "
+                android:text="0 "
+                android:textColor="#060B10"
                 android:textSize="40sp" />
 
             <TextView
@@ -112,101 +114,79 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="-"
+                android:textColor="#060B10"
                 android:textSize="40sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="  0"
+                android:text=" 0"
+                android:textColor="#060B10"
                 android:textSize="40sp" />
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="90dp"
                 android:layout_marginRight="40dp"
                 android:layout_weight="1"
+                android:textColor="#060B10"
                 android:src="@drawable/manutd" />
         </LinearLayout>
     </RelativeLayout>
 <RelativeLayout
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:gravity="center">
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" 0'"
+        android:text="00:00"
+        android:textColor="#A9C9E4"
         android:textSize="45sp"
-        android:gravity="center"
-        android:layout_marginTop="120dp"/>
+        android:gravity=""
+        android:layout_marginTop="160dp"
+        android:background="@drawable/roundedbuttonblack"/>
 
 </RelativeLayout>
-<LinearLayout
+<RelativeLayout
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <Button
+        android:layout_above="@+id/endmatchfromfirsthalf"
         android:id="@+id/makesubfromfirsthalf"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="MAKE SUB"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="180dp"
-        android:textColor="#2A2D32"
-        android:background="#B3C0921A"/>
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginRight="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="#060B10"
+        android:background="@drawable/yellowbutton_background"/>
 
     <Button
+        android:layout_alignParentBottom="true"
         android:id="@+id/endmatchfromfirsthalf"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="END MATCH"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#060B10"
+        android:background="@drawable/yellowbutton_background"
+        android:layout_marginRight="48dp"
+        android:layout_marginLeft="48dp"
 
-        android:textColor="#2A2D32"
-        android:background="#B3C0921A"
-        android:layout_marginTop="12dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
         />
 
 
-</LinearLayout>
+</RelativeLayout>
 
-
-
-<RelativeLayout
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/playerone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="180dp"
-            android:background="#B32A2D32"
-            android:text="1 GREEN\n2 AYLING\n18 JANSSON\n6 COOPER\n28 BERARDI\n24 SACKO\n25 VIERA\n19 HERNANDEZ\n26 BRIDCUTT\n9 WOOD\n7 ROOFE"
-            android:textColor="#C0921A"
-            android:textSize="20sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity=""
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="300dp"
-            android:layout_alignParentBottom="true"
-            android:background="#B32A2D32"
-            android:gravity="right"
-            android:text="DE GEA 1\nJONES 4\nSMALLING 12\nCARRICK 16\nSHAW 28\nPOGBA 6\nLINGARD 14\nVALENCIA 25\nYOUNG 18\nMARTIAL 9\nLUKAKU 10"
-            android:textColor="#C0921A"
-            android:textSize="20sp"
-            android:layout_marginRight="12dp" />
-
-   </RelativeLayout>
 
     <Button
         android:id="@+id/halftimefromfirsthalf"

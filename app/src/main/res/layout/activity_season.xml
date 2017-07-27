@@ -26,7 +26,7 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:src="@drawable/leeds"
-                android:background="#2A2D32"
+                android:background="#060B10"
 
 
                 />
@@ -35,20 +35,20 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="2"
-                android:background="#2A2D32"
+                android:background="#060B10"
                 android:text="CLUB NAME"
                 android:textAlignment="center"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
-                android:background="#2A2D32"
+                android:background="#060B10"
                 android:text="XP"
                 android:textAlignment="center"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp" />
 
             <TextView
@@ -56,10 +56,10 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
-                android:background="#2A2D32"
+                android:background="#060B10"
                 android:text="COINS"
                 android:textAlignment="center"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -78,9 +78,9 @@
                 android:layout_marginRight="12dp"
                 android:layout_marginTop="60dp"
                 android:layout_weight="4"
-                android:backgroundTint="#B3C0921A"
+                android:background="@drawable/yellowbutton_background"
                 android:text="PLAY MATCH"
-                android:textColor="#2A2D32"
+                android:textColor="#060B10"
                 android:textSize="25sp"
                 android:textStyle="bold"
 
@@ -92,9 +92,9 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginTop="60dp"
                 android:layout_weight="2"
-                android:backgroundTint="#B32A2D32"
+                android:background="@drawable/blackbutton_background"
                 android:text="STATS"
-                android:textColor="#C0921A"
+                android:textColor="#A9C9E4"
                 android:textSize="12sp"
                 android:textStyle="bold" />
 
@@ -105,9 +105,9 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginTop="60dp"
                 android:layout_weight="2"
-                android:backgroundTint="#B32A2D32"
+                android:background="@drawable/blackbutton_background"
                 android:text="BACK"
-                android:textColor="#C0921A"
+                android:textColor="#A9C9E4"
                 android:textSize="12sp"
                 android:textStyle="bold"></Button>
 
@@ -125,7 +125,7 @@
                 android:layout_marginTop="170dp"
                 android:background="#9C2A2D32"
                 android:text="Division:8"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp" />
 
             <TextView
@@ -135,7 +135,7 @@
                 android:layout_marginTop="8dp"
                 android:background="#9C2A2D32"
                 android:text="Record: 3-3-1 (W-D-L)"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp" />
 
             <TextView
@@ -145,7 +145,7 @@
                 android:layout_marginTop="8dp"
                 android:background="#9C2A2D32"
                 android:text="Projected: Promotion"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp"></TextView>
 
             <TextView
@@ -155,7 +155,7 @@
                 android:layout_marginTop="8dp"
                 android:background="#9C2A2D32"
                 android:text="Games Remaining:3"
-                android:textColor="#C0921A"
+                android:textColor="#FED837"
                 android:textSize="20sp"></TextView>
 
         </LinearLayout>
@@ -170,7 +170,7 @@
                 android:src="@drawable/dailybonus"
                 android:layout_above="@+id/buypacksseasons"
                 android:layout_marginRight="45dp"
-                android:background="#2A2D32"
+                android:background="#060B10"
                 android:layout_marginBottom="12dp"
                 android:layout_marginLeft="34dp"
                 />
@@ -181,11 +181,12 @@
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/progress"
                 android:layout_marginRight="192dp"
-                android:backgroundTint="#B3C0921A"
+                android:backgroundTint="#FED837"
                 android:text="BUY PACKS"
-                android:textColor="#2A2D32"
+                android:textColor="#060B10"
                 android:textSize="25sp"
                 android:textStyle="bold"
+                android:background="@drawable/yellowbutton_background"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="24dp"/>
 

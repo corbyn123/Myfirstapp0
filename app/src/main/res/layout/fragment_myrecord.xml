@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Myclubhomepage$MyrecordFragment"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backgroundlice">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="THIS SEASON"
+                android:textColor="#A9C9E4"
+                android:gravity="center_horizontal"
+                android:background="#060B10"
+                android:layout_marginLeft="72dp"
+                android:layout_marginRight="72dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:background="#B3060B10"
+                android:layout_marginBottom="12dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ALL TIME"
+                android:textColor="#A9C9E4"
+                android:gravity="center_horizontal"
+                android:background="#060B10"
+                android:layout_marginLeft="72dp"
+                android:layout_marginRight="72dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:background="#B3060B10"
+                android:layout_marginBottom="12dp"
+                />
+
+        </LinearLayout>
+
+</RelativeLayout>
+
+

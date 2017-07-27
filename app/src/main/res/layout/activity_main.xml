@@ -24,7 +24,7 @@
             android:layout_height="30dp"
             android:layout_weight="1"
             android:src="@drawable/leeds"
-            android:background="#2A2D32"
+            android:background="#060B10"
 
             />
 
@@ -32,20 +32,20 @@
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="2"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="CLUB NAME"
             android:textAlignment="center"
-            android:textColor="#C0921A"
+            android:textColor="#FED837"
             android:textSize="20sp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="XP"
             android:textAlignment="center"
-            android:textColor="#C0921A"
+            android:textColor="#FED837"
             android:textSize="20sp" />
 
         <TextView
@@ -53,10 +53,10 @@
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
-            android:background="#2A2D32"
+            android:background="#060B10"
             android:text="COINS"
             android:textAlignment="center"
-            android:textColor="#C0921A"
+            android:textColor="#FED837"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -87,10 +87,11 @@
             android:layout_marginBottom="36dp"
             android:layout_marginTop="110dp"
             android:layout_weight="2"
-            android:backgroundTint="#B32A2D32"
+            android:background="@drawable/blackbutton_background"
             android:text="PLAY"
-            android:textColor="#C0921A"
-            android:textSize="50sp" />
+            android:textStyle="bold"
+            android:textColor="#A9C9E4"
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/BUYPACKS"
@@ -98,10 +99,11 @@
             android:layout_height="0dp"
             android:layout_marginBottom="36dp"
             android:layout_weight="1"
-            android:backgroundTint="#B3C0921A"
+            android:textStyle="bold"
+            android:background="@drawable/yellowbutton_background"
             android:text="BUY PACKS"
-            android:textColor="#2A2D32"
-            android:textSize="25sp" />
+            android:textColor="#060B10"
+            android:textSize="28sp" />
 
         <Button
             android:id="@+id/MYCLUB"
@@ -109,10 +111,11 @@
             android:layout_height="0dp"
             android:layout_marginBottom="36dp"
             android:layout_weight="1"
-            android:backgroundTint="#B32A2D32"
+            android:background="@drawable/blackbutton_background"
             android:text="MY CLUB"
-            android:textColor="#C0921A"
-            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#A9C9E4"
+            android:textSize="28sp"
             />
 
         <Button
@@ -120,10 +123,11 @@
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:backgroundTint="#B3C0921A"
+            android:textStyle="bold"
+            android:background="@drawable/yellowbutton_background"
             android:text="TROPHIES"
-            android:textColor="#2A2D32"
-            android:textSize="25sp" />
+            android:textColor="#060B10"
+            android:textSize="28sp" />
 
         <Button
 
@@ -132,10 +136,11 @@
             android:layout_height="0dp"
             android:layout_marginTop="36dp"
             android:layout_weight="1"
-            android:backgroundTint="#B32A2D32"
+            android:textStyle="bold"
+            android:background="@drawable/blackbutton_background"
             android:text="SETTINGS"
-            android:textColor="#C0921A"
-            android:textSize="25sp" />
+            android:textColor="#A9C9E4"
+            android:textSize="28sp" />
 
     </LinearLayout>
 

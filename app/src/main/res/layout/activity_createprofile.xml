@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlice"
+    tools:context="com.example.myfirstapp.Createprofile">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/FUTSEASONSlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="36dp"
+            android:text="FUT\nSEASONS"
+            android:textColor="#A9C9E4"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/choosefavouriteteamtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="65dp"
+            android:gravity="center"
+            android:text="Select favourite team:"
+            android:textColor="#A9C9E4"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/favouriteteam_spinner"
+            style="@style/spinner_style"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/choosefavouriteteamtext"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="#A9C9E4"
+            android:dropDownHeight="wrap_content"
+            android:dropDownWidth="wrap_content"
+            android:popupBackground="#A9C9E4"
+
+            />
+
+        <TextView
+            android:id="@+id/useridtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FUTSEASONSlogo"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_horizontal"
+            android:text="CHOOSE USER ID"
+            android:textColor="#A9C9E4"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/useridtext"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="#A9C9E4"
+            android:lines="1"
+            android:textSize="36dp">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/gotomainactivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favouriteteam_spinner"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/blackbutton_background"
+            android:text="CREATE\nPROFILE"
+            android:textColor="#A9C9E4"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/FUTSEASONSlogo"
+            android:layout_marginRight="36dp"
+            android:src="@drawable/futseasonslogo" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

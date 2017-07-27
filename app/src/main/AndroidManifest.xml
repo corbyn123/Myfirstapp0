@@ -9,18 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".Season" />
-        <activity android:name=".BuyPacks" />
-        <activity android:name=".MyClubHomepage" />
         <activity android:name=".Trophies" />
-        <activity android:name=".Settings" />
         <activity android:name=".Matchsimulatorfirsthalf" />
         <activity android:name=".Pregame" />
         <activity android:name=".Halftime" />
@@ -28,7 +19,28 @@
         <activity android:name=".gamesimulatorsecondhalf" />
         <activity android:name=".Rewards" />
         <activity android:name=".Endgame" />
-        <activity android:name=".Substitutionsecondhalf"></activity>
+        <activity android:name=".Substitutionsecondhalf" />
+        <activity android:name=".Createprofile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".buyPacks"
+            android:label="@string/title_activity_packtypes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Myclubhomepage"
+            android:label="@string/title_activity_myclubhomepage"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Chooseformation" />
+        <activity android:name=".Maketeam" />
+        <activity
+            android:name=".settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
